@@ -48,6 +48,11 @@ img{
     width: 25px;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
+}
+.add:hover{
+    background-color: rgb(252, 101, 239);
+    cursor: pointer;
 }
 .minus{
     font-size: larger;
@@ -57,6 +62,11 @@ img{
     width: 25px;
     display: flex;
     justify-content: center;
+    border-radius: 5px;
+}
+.minus:hover{
+    background-color: rgb(252, 101, 239);
+    cursor: pointer;
 }
 .count{
     font-size: larger;
@@ -73,4 +83,8 @@ img{
     justify-content: end;
     margin-top: 40px;
     margin-right: 100px;
+}
+.foot h2{
+    margin-left: 20px;
+   
 }
