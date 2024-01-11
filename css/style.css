@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0px 0px;
+    background-color: rgb(252, 101, 239);
+}
+.Heading{
+    color: black;
+    margin-left: 40px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+img{
+    margin-right: 40px;
+}
+.Head{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    /* margin-left: 30px; */
+}
