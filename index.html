@@ -8,24 +8,24 @@
 </head>
 <body>
     <div class="nav">
-        <p class="Heading">Hexstan Digital Agency</p>
-        <img src="res/menu-symbol-of-three-parallel-lines-svgrepo-com.svg" width="30" height="30"/>
+        <p id="rmm" class="Heading">Hexstan Digital Agency</p>
+        <img src="res/two.svg" width="30" height="30"/>
     </div>
 <div class="Head">
-    <img src="res/images.jpg" alt="shoe" width="300" height="200">
+    <img id="first" src="res/images.jpg" alt="shoe" width="300px" height="200px">
     <p class="header">Hexstan Vintage</p>
-    <h3 class="add">+</h3>
-    <h3 class="count">0</h3>
-    <h3 class="minus">-</h3>
-    <h3 class="amount">N400</h3>
+    <h3 onclick=addOne() class="add">+</h3>
+    <h3 id="tochange" class="count">1</h3>
+    <h3 id="min" onclick=subOne() class="minus">-</h3>
+    <h3 id="tt" class="amount">N400</h3>
 </div>
 <div class="Head">
     <img src="res/Bill-Bird-Shoes-Bespoke-Orthopaedic-Shoemakers-1.jpg" alt="shoe" width="300" height="200">
     <p class="header">Hexstan Gentles</p>
-    <h3 class="add">+</h3>
-    <h3 class="count">0</h3>
-    <h3 class="minus">-</h3>
-    <h3 class="amount">N700</h3>
+    <h3 onclick=addOne1() class="add">+</h3>
+    <h3 id="tochange1" class="count">1</h3>
+    <h3 id="min1" onclick=subOne1() class="minus">-</h3>
+    <h3 id="tt1" class="amount">N700</h3>
 </div>
 <div class="foot">
     <h2>Total:</h3> <br>
@@ -33,6 +33,6 @@
 </div>
     
 
-          <script src="js/index.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
