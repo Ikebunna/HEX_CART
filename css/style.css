@@ -88,3 +88,22 @@ img{
     margin-left: 20px;
    
 }
+.innerdiv{
+    display: flex;
+    gap: 2vw;
+}
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    .Head{
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        
+    }
+    .amount{
+        margin-left: 0;
+    }
+    .header{
+        margin-right: 0;
+    }
+ } 
