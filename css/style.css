@@ -93,7 +93,7 @@ img{
     gap: 2vw;
 }
 
-@media (min-width: 576px) and (max-width: 768px) { 
+@media (max-width: 768px) { 
     .Head{
         flex-direction: column;
         gap: 2vh;
